@@ -54,4 +54,6 @@ class Demo
 
 $demo = new Demo();
 
-$demo->getCode();
+//$demo->getCode();
+
+$demo->checkCode();
