@@ -165,8 +165,8 @@ class Captcha
         $key = $this->authcode($verifyid);
         $code = $this->authcode(strtoupper(implode('', $code)));
         $secode = [];
-        $secode['verify_id'] = $verifyid; // 校验码
-        $secode['verify_key'] = $key; // 校验码
+        $secode['verify_id'] = $verifyid; // 校验码编号 id
+        $secode['verify_key'] = $key; // 校验码 key
         $secode['verify_code'] = $code; // 校验码
         $secode['verify_time'] = time();// 验证码创建时间
         // 输出图像

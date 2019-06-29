@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "ext-gd2": "*"
     },
     "autoload": {
         "psr-4": {
